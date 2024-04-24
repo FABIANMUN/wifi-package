@@ -1,0 +1,176 @@
+/* General Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+main {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.package {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 320px;
+    height: 550px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.package-image {
+    width: 100%;
+    height: 190px;
+    position: relative;
+    
+}
+
+.image-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size:contain;
+    background-position: center;
+    
+}
+.package-details-starter,
+.package-details-elite,
+.package-details-standard,
+.package-details-prime,
+.package-details-plus,
+.package-details-ultimate,
+.package-details-executive,
+.package-details-supreme,
+.package-details-superior
+{
+    width: 100%;
+    height: 400px;
+    padding: 30px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 2px 3px 4px 5px gray;
+    border-radius: 20px;
+    background-color: #2196F3;
+}
+/* .package-details-starter{
+    background-color: #2196F3;
+}
+.package-details-standard{
+    background-color: #0DF24D;
+}
+.package-details-elite{
+    background-color:aqua ;
+}
+.package-details-prime{
+    background-color:rgb(233, 253, 242) ;
+}
+.package-details-plus{
+    background-color:aqua ;
+}
+.package-details-ultimate{
+    background-color:rgb(252, 255, 255) ;
+}
+.package-details-executive{
+    background-color:rgb(173, 178, 178) ;
+}
+.package-details-supreme{
+    background-color:rgb(253, 185, 40) ;
+}
+.package-details-superior{
+    background-color:rgb(174, 29, 252) ;
+} */
+
+
+.package-info {
+    margin-bottom: 30px;
+}
+
+h2 {
+    margin-top: 0;
+    font-size: 28px;
+    font-weight: 800;
+    font-style: bold;
+    color: white;
+}
+
+.validity,
+.support {
+    font-size: 14px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.validity i,
+.support i {
+    margin-right: 5px;
+    color: white;
+}
+
+.price {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.price-value {
+    color: #f44336;
+}
+
+.price-period {
+    font-size: 18px;
+    font-weight: normal;
+    color: white;
+}
+
+.subscribe-btn button {
+    width: 200px;
+    height: 50px;
+    color: white;
+    font-weight: 700;
+    font-style: bold;
+    background-color: rgba(0, 255, 255, 0.375);
+    border-radius: 10px;
+    box-shadow: 0px 5px 12px 4px  black;
+    border: none;
+}
+    
+
+.subscribe-btn button:hover {
+    background-color: rgb(2, 104, 104);
+    cursor: pointer;
+}
+.input-section {
+    margin-bottom: 20px;
+}
+
+.input-section input {
+    width: 80%;
+    height: 40px;
+    padding: 0 10px;
+    font-size: 16px;
+    border: none;
+}
+
+.input-section input:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 0 0.1rem rgba(0,123,255,.25);
+}
+.package-row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
